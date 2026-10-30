@@ -7,6 +7,8 @@ O contador mostra **dias, horas, minutos e segundos** atualizados em tempo real,
 além de um painel com o progresso do semestre e um resumo de semanas, dias úteis
 e fins de semana restantes.
 
+> 🌐 **Demo ao vivo:** https://contador-formatura-orpin.vercel.app
+
 ## ✨ Destaques
 
 - Contagem regressiva em tempo real, sincronizada com o horário do navegador.
@@ -78,8 +80,16 @@ lib/
 
 ## ☁️ Deploy
 
-Publicado na Vercel. O projeto não precisa de variáveis de ambiente: basta
-importar o repositório e manter as configurações padrão (`next build`).
+Publicado na Vercel em
+[contador-formatura-orpin.vercel.app](https://contador-formatura-orpin.vercel.app).
+O projeto não precisa de variáveis de ambiente: basta importar o repositório e
+manter as configurações padrão (`next build`).
+
+Para publicar uma nova versão pela CLI:
+
+```bash
+vercel --prod
+```
 
 ---
 
